@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda+One");
+
+body {
+  font-family: "Merienda One", cursive;
+  background-color: #000000;
+  overflow: none;
+}
+
+#music {
+  visibility: hidden;
+}
+
+#foot {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 500px;
+  right: 50px;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg .text-info {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.msg .text-info .happy {
+  color: #725ac1;
+  text-shadow: 0px 2px #00a6fb, 0px 4px #f50057, 0px 6px #ffc107, 0px 8px #725ac1;
+}
+
+.msg .text-info .friendship {
+  color: #00a6fb;
+  text-shadow: 0px 2px #f50057, 0px 4px #ffc107, 0px 6px #725ac1, 0px 8px #00a6fb;
+}
+
+.msg .text-info .day {
+  color: #f50057;
+  text-shadow: 0px 2px #ffc107, 0px 4px #725ac1, 0px 6px #00a6fb, 0px 8px #f50057;
+}
+
+.msg .text-info .javas {
+  color: #4eff57;
+  text-shadow: 0px 2px #f50057,
+    0px 4px #7360b1,
+    0px 6px #5bc8ff,
+    0px 8px #fc4283;
+}
+
+.msg .spikes {
+  position: absolute;
+  height: 50%;
+  width: 0.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform-origin: bottom;
+  box-sizing: border-box;
+}
+
+.msg .spikes span {
+  width: 100%;
+  background-color: green;
+  position: absolute;
+  display: inline-flex;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 400px;
+  border-radius: 40px;
+}
+
+.msg .spikes span:nth-child(1) {
+  animation: moveOut-1 1s linear infinite;
+  animation-delay: 0.25s;
+  border-radius: 0px;
+  width: 0.5rem;
+  bottom: 5%;
+  height: 0.5rem;
+  opacity: 0;
+  border-radius: 0.5rem;
+}
+
+.msg .spikes span:nth-child(2) {
+  animation: moveOut-2 1s linear infinite;
+  animation-delay: 0.5s;
+  border-radius: 0px;
+  width: 0.5rem;
+  bottom: 10%;
+  height: 1rem;
+  opacity: 0;
+  border-radius: 0.5rem;
+}
+
+.msg .spikes span:nth-child(3) {
+  animation: moveOut-3 1s linear infinite;
+  animation-delay: 0.75s;
+  border-radius: 0px;
+  width: 0.5rem;
+  bottom: 15%;
+  height: 1.5rem;
+  opacity: 0;
+  border-radius: 0.5rem;
+}
+
+.msg .spikes span:nth-child(4) {
+  animation: moveOut-4 1s linear infinite;
+  animation-delay: 1s;
+  border-radius: 0px;
+  width: 0.5rem;
+  bottom: 20%;
+  height: 2rem;
+  opacity: 0;
+  border-radius: 0.5rem;
+}
+
+.msg .spikes span:nth-child(1) {
+  background-color: #725ac1;
+}
+
+.msg .spikes span:nth-child(2) {
+  background-color: #00a6fb;
+}
+
+.msg .spikes span:nth-child(3) {
+  background-color: #f50057;
+}
+
+.msg .spikes span:nth-child(4) {
+  background-color: #ffc107;
+}
+
+.msg .spikes:nth-child(1) {
+  transform: rotate(6deg);
+}
+
+.msg .spikes:nth-child(2) {
+  transform: rotate(12deg);
+}
+
+.msg .spikes:nth-child(3) {
+  transform: rotate(18deg);
+}
+
+.msg .spikes:nth-child(4) {
+  transform: rotate(24deg);
+}
+
+.msg .spikes:nth-child(5) {
+  transform: rotate(30deg);
+}
+
+.msg .spikes:nth-child(6) {
+  transform: rotate(36deg);
+}
+
+.msg .spikes:nth-child(7) {
+  transform: rotate(42deg);
+}
+
+.msg .spikes:nth-child(8) {
+  transform: rotate(48deg);
+}
+
+.msg .spikes:nth-child(9) {
+  transform: rotate(54deg);
+}
+
+.msg .spikes:nth-child(10) {
+  transform: rotate(60deg);
+}
+
+.msg .spikes:nth-child(11) {
+  transform: rotate(66deg);
+}
+
+.msg .spikes:nth-child(12) {
+  transform: rotate(72deg);
+}
+
+.msg .spikes:nth-child(13) {
+  transform: rotate(78deg);
+}
+
+.msg .spikes:nth-child(14) {
+  transform: rotate(84deg);
+}
+
+.msg .spikes:nth-child(15) {
+  transform: rotate(90deg);
+}
+
+.msg .spikes:nth-child(16) {
+  transform: rotate(96deg);
+}
+
+.msg .spikes:nth-child(17) {
+  transform: rotate(102deg);
+}
+
+.msg .spikes:nth-child(18) {
+  transform: rotate(108deg);
+}
+
+.msg .spikes:nth-child(19) {
+  transform: rotate(114deg);
+}
+
+.msg .spikes:nth-child(20) {
+  transform: rotate(120deg);
+}
+
+.msg .spikes:nth-child(21) {
+  transform: rotate(126deg);
+}
+
+.msg .spikes:nth-child(22) {
+  transform: rotate(132deg);
+}
+
+.msg .spikes:nth-child(23) {
+  transform: rotate(138deg);
+}
+
+.msg .spikes:nth-child(24) {
+  transform: rotate(144deg);
+}
+
+.msg .spikes:nth-child(25) {
+  transform: rotate(150deg);
+}
+
+.msg .spikes:nth-child(26) {
+  transform: rotate(156deg);
+}
+
+.msg .spikes:nth-child(27) {
+  transform: rotate(162deg);
+}
+
+.msg .spikes:nth-child(28) {
+  transform: rotate(168deg);
+}
+
+.msg .spikes:nth-child(29) {
+  transform: rotate(174deg);
+}
+
+.msg .spikes:nth-child(30) {
+  transform: rotate(180deg);
+}
+
+.msg .spikes:nth-child(31) {
+  transform: rotate(186deg);
+}
+
+.msg .spikes:nth-child(32) {
+  transform: rotate(192deg);
+}
+
+.msg .spikes:nth-child(33) {
+  transform: rotate(198deg);
+}
+
+.msg .spikes:nth-child(34) {
+  transform: rotate(204deg);
+}
+
+.msg .spikes:nth-child(35) {
+  transform: rotate(210deg);
+}
+
+.msg .spikes:nth-child(36) {
+  transform: rotate(216deg);
+}
+
+.msg .spikes:nth-child(37) {
+  transform: rotate(222deg);
+}
+
+.msg .spikes:nth-child(38) {
+  transform: rotate(228deg);
+}
+
+.msg .spikes:nth-child(39) {
+  transform: rotate(234deg);
+}
+
+.msg .spikes:nth-child(40) {
+  transform: rotate(240deg);
+}
+
+.msg .spikes:nth-child(41) {
+  transform: rotate(246deg);
+}
+
+.msg .spikes:nth-child(42) {
+  transform: rotate(252deg);
+}
+
+.msg .spikes:nth-child(43) {
+  transform: rotate(258deg);
+}
+
+.msg .spikes:nth-child(44) {
+  transform: rotate(264deg);
+}
+
+.msg .spikes:nth-child(45) {
+  transform: rotate(270deg);
+}
+
+.msg .spikes:nth-child(46) {
+  transform: rotate(276deg);
+}
+
+.msg .spikes:nth-child(47) {
+  transform: rotate(282deg);
+}
+
+.msg .spikes:nth-child(48) {
+  transform: rotate(288deg);
+}
+
+.msg .spikes:nth-child(49) {
+  transform: rotate(294deg);
+}
+
+.msg .spikes:nth-child(50) {
+  transform: rotate(300deg);
+}
+
+.msg .spikes:nth-child(51) {
+  transform: rotate(306deg);
+}
+
+.msg .spikes:nth-child(52) {
+  transform: rotate(312deg);
+}
+
+.msg .spikes:nth-child(53) {
+  transform: rotate(318deg);
+}
+
+.msg .spikes:nth-child(54) {
+  transform: rotate(324deg);
+}
+
+.msg .spikes:nth-child(55) {
+  transform: rotate(330deg);
+}
+
+.msg .spikes:nth-child(56) {
+  transform: rotate(336deg);
+}
+
+.msg .spikes:nth-child(57) {
+  transform: rotate(342deg);
+}
+
+.msg .spikes:nth-child(58) {
+  transform: rotate(348deg);
+}
+
+.msg .spikes:nth-child(59) {
+  transform: rotate(354deg);
+}
+
+.msg .spikes:nth-child(60) {
+  transform: rotate(360deg);
+}
+
+.msg .spikes:nth-child(61) {
+  transform: rotate(366deg);
+}
+
+@keyframes moveOut-1 {
+  0% {
+    bottom: 200%;
+    opacity: 1;
+    transform: translateX(-50%) scale(1.5);
+  }
+
+  100% {
+    bottom: 100%;
+    opacity: 0.2;
+    transform: translateX(-50%) scale(0.1);
+  }
+}
+
+@keyframes moveOut-2 {
+  0% {
+    bottom: 200%;
+    opacity: 1;
+    transform: translateX(-50%) scale(1.5);
+  }
+
+  100% {
+    bottom: 100%;
+    opacity: 0.2;
+    transform: translateX(-50%) scale(0.1);
+  }
+}
+
+@keyframes moveOut-3 {
+  0% {
+    bottom: 200%;
+    opacity: 1;
+    transform: translateX(-50%) scale(1.5);
+  }
+
+  100% {
+    bottom: 100%;
+    opacity: 0.2;
+    transform: translateX(-50%) scale(0.1);
+  }
+}
+
+@keyframes moveOut-4 {
+  0% {
+    bottom: 200%;
+    opacity: 1;
+    transform: translateX(-50%) scale(1.5);
+  }
+
+  100% {
+    bottom: 100%;
+    opacity: 0.2;
+    transform: translateX(-50%) scale(0.1);
+  }
+}
+
+@media screen and (min-width: 53em) {
+  #foot {
+    font-size: 40px;
+    top: 1300px;
+  }
+}
